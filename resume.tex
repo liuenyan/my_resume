@@ -1,0 +1,71 @@
+% -*- coding: utf8 -*-
+
+\documentclass[a4paper, UTF8]{ctexart}
+
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage[raggedright]{titlesec}
+
+% 设置标题、作者、日期
+\title{个人简历}
+\author{刘恩岩}
+\date{\today}
+\setCJKmainfont{WenQuanYi Micro Hei}
+
+% 设置页边距
+\geometry{left=2cm,right=2cm,top=3cm,bottom=3cm}
+
+% 设置页眉页脚
+\pagestyle{fancy}
+\lhead{个人简历}
+\chead{刘恩岩}
+\rhead{我的手机号}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\begin{document}
+
+\section{基本信息}
+
+\begin{tabular}{r@{：}l}
+    姓名 & 刘恩岩 \\
+    性别 & 男 \\
+    民族 & 汉族 \\
+    籍贯 & 吉林省农安县 \\
+    手机 & 我的手机号 \\
+    电子邮件 & liu.enyan[AT]gmail.com \\
+    GitHub & https://github.com/liuenyan \\
+\end{tabular}
+
+\section{教育背景}
+
+\begin{tabular}{cccc}
+    %时间 & 学校 & 专业 & 学历 \\
+    2006.09-2010.07 & 哈尔滨工业大学 & 计算机科学与技术 & 本科 \\ 
+\end{tabular}
+
+\section{工作经历}
+\begin{tabular}{ccc}
+    %时间 & 公司 & 职位 \\
+    2010.08-现在 & 某公司 & 开发工程师
+\end{tabular}
+
+\section{个人技能}
+\begin{enumerate}
+\item C/C++：熟练使用C/C++ 进行开发，会使用 GDB 进行调试，能够手工编写 Makefile，有简单的 CMake 使用经验。
+\item Python：能够使用 Python 语言进行完成日常工作。有过 Django 和 Flask 框架的使用经验。
+\item HTML \& CSS \& JavaScript：理解 HTML 的 DOM 结构，能够编写 HTML 和 CSS 来编写网页。能够使用 JavaScript 以及 jQuery 库完成简单的交互的编写。理解 Ajax 的工作原理。
+\item Linux: 有过多种 Linux 发行版 ( Ubuntu/Debian/CentOS/Arch Linux ) 的使用经验。熟练使用 Linux 命令，能够编写 shell 脚本完成日常的工作。
+\item Git: 会使用 git 版本控制工具对代码版本进行控制。
+\item Markdown \& reStructureText: 会使用 Markdown 和 rST 标记语法编写项目文档。
+\item 网络协议：熟悉常用的网络协议 ( TCP/UDP/DNS/HTTP等) 的工作原理，能够使用 tcpdump 和 wireshark 工具对捕获的协议包进行分析。
+\end{enumerate}
+
+\section{项目经验}
+这里还未撰写。
+
+\end{document}
+
